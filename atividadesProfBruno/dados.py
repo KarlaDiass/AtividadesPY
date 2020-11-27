@@ -30,6 +30,6 @@ Quantidade de cada número sorteado:
 |4 = {quatro} | 5 = {cinco} | 6 = {seis} |
 """)
                 #----------------------------------------
-                #------parabéns achei muito topp---------
+                #------parabéns achei muito topp  ---------
                 #----------------------------------------
 

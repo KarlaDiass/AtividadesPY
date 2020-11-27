@@ -17,4 +17,4 @@ for i in range(2,n):
 
 print("Os números primos de 1 até",n," são:" ,*primos, sep=' ')
 
-# primeira vez que vejo esse sep achei massa.
+# primeira vez que vejo esse sep achei massa.  
