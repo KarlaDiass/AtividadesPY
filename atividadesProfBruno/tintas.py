@@ -75,7 +75,7 @@ while True:
         break
 
 
-#nesse exercicio apanehi um pouco ksksksk
+#nesse exercicio apanhei um pouco ksksksk
 
 
 
