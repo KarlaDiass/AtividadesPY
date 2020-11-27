@@ -28,3 +28,5 @@ def contador(frase, cont_espacos, vogais):
     """)
 
 contador(frase, cont_espacos, vogais)
+
+#achei muito legal seu codigo todo parabéns :)

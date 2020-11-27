@@ -16,3 +16,5 @@ for i in range(2,n):
         primos.append(i)
 
 print("Os números primos de 1 até",n," são:" ,*primos, sep=' ')
+
+# primeira vez que vejo esse sep achei massa.
