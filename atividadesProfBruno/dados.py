@@ -10,7 +10,7 @@ from time import sleep
 
 valores_dado = []
 
-for jodada in range(100):
+for jogada in range(100):
     valores_dado.append(randint(1, 6))
 
 um = valores_dado.count(1)

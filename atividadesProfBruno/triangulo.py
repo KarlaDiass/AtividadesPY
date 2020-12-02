@@ -15,7 +15,7 @@ def cond_exist(a, b, c):
 
 
 def triangulo(a, b, c):
-    if a == b and a == c:
+    if a == b == c:
         print("TRIÂNGULO EQUILÁTERO")
     elif a != b and a != c and b!=c:
         print("TRIÂNGULO ESCALENO")
