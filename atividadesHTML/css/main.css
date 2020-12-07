@@ -1,0 +1,164 @@
+body{
+margin: 0;
+width: 100%;
+height: 100%;
+background-color: #ffffff;
+}
+
+.cabecalho{
+width: 100%;
+background-color: #012032;
+height: 60px;
+}
+
+main{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.logo{
+padding: 10px;
+
+}
+
+.principal2{
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid  #012032;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+
+.menu ul li a{
+    color: #547d94;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-right: 0 auto;
+}
+
+.main2{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.gallery{
+    margin: 0 auto;
+}
+
+ .gallery li {
+    /* width:  100%; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* z-index: 1; */
+    /* margin: 100px auto; */
+    display: inline;
+    float: left;
+    width: 240px;
+    /* background-color: #f5f7f9; */
+    /* padding: 5px;*/
+    margin-left: 15px; 
+    text-align: center;
+    
+
+  }
+
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    border-bottom: 3px solid #012032;
+   
+}
+
+.subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.subtitulo h2{
+    color: #012032;
+}
+
+.lista ul{
+    width: auto;
+    height: 40px;
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    z-index: 1;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.lista  li{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.lista img{
+    width: auto;
+    position: relative;
+    height: auto;
+    padding: 0;
+
+}
+
+/* .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* float: left;  */
+    /* display: flex;} */
+
+
+
+
+
+/* .navigation ol li{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+
+
+} */
+   
+/* .navigation li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    clear: both;
+    display: inline;
+    float: left;
+  }
+  
+.navigation li a img {
+    border: none;
+  }
+   */
+
+  
+   
