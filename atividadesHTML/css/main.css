@@ -8,12 +8,13 @@ background-color: #ffffff;
 .cabecalho{
 width: 100%;
 background-color: #012032;
-height: 60px;
+height: 200px;
 }
+
 
 main{
 margin: 0 auto;
-width: 980px;
+width: 100%;
 position: relative;
 }
 
@@ -58,7 +59,7 @@ padding: 10px;
 }
 
 .gallery{
-    margin: 0 auto;
+    margin-top: 100px;
 }
 
  .gallery li {
@@ -78,13 +79,14 @@ padding: 10px;
 
   }
 
-.titulo {
+.titulo h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
+    font-size: 60px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5px;
     width: 100%;
-    border-bottom: 3px solid #012032;
+    color: #add8e6;
+    /* border-bottom: 3px solid #012032; */
    
 }
 
@@ -103,37 +105,42 @@ padding: 10px;
 
 .lista ul{
     width: auto;
-    height: 40px;
+    height: auto;
     position: relative;
-    padding: 10px;
     list-style-type: none;
-    z-index: 1;
-    text-align: left;
-    margin: 0 auto;
+    
 }
 
 .lista{
-    display: flex;
+    display: inline;
+    width: 100px;
+    margin-left: 50%;
+
+    
 }
 
 .lista  li{
-    margin-top: 5px;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: left;
+    padding: 5px;
+    /* float: left; */
+    margin-left: 40%;
 }
 
-.lista img{
+.imagem img{
     width: auto;
     position: relative;
     height: auto;
     padding: 10px;
-    margin-left: 10%;
+    margin-left: 0 auto;
 }
 
 .table td{
     text-align: center;
     font-family: "Tahoma";
     color: black;
-    width: 300px;
+    width: 200px;
+    height: 100%;
     padding: 10px;
     background-color: #829FD9;
     
@@ -146,19 +153,90 @@ padding: 10px;
 }
 
 .table h2{
-    margin-left: 150px;
+    text-align: center;
 }
 
 .table{
-    margin-left: 50px;
-    padding-top: 10px;
-    width: 50%;
+    /* display: inline-block; */
+    width: 400px;
+    /* border-collapse: collapse; */
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 0;
+    table-layout: fixed;
 
 }
 
 
 
+.tabelas{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
 
 
+.content{
+    display: flex;
+    /* justifica no eixo x */
+    justify-content: center; 
+    /* justifica no eixo y */
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    /* 100 vh ocupa a tela inteira */
+    height: 100%;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px #201f866e;
+    width: 400px;
+    margin-left: 5%;
+}
+
+.mediaCard{
+    background: url(https://cdn.getyourguide.com/img/location/545b65f18e3ae.jpeg/148.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+.mediaCard1{
+    background: url(https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/castelo%20beto%20carrero_0.jpg?_L3wQekLuzXYwDOZ0B7lk8tqnK9aG6L9) center/cover;
+    height: 300px;
+    width: 100%;
+
+}
+
+.topcard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+button.actions {
+    background: #00bfff;
+    border: none;
+    
+    border-radius: 20px;
+}
+
+.actions a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+}
+
+.secondText{
+    color: #918e8e;
+}
 
 
