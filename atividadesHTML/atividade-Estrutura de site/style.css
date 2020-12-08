@@ -1,0 +1,129 @@
+body{
+    background-color: gray;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid blue;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 7px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    transition: .5s;
+}
+
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu{
+    border: 2px solid black;
+    width: 100%;
+    height: 77px;
+}
+.logo img{
+    border: 2px solid black;
+}
+.logo{
+    text-align: center;
+    border:2px solid black;
+    padding: 30px 20x;
+}
+
+.slogan{
+    text-align: center;
+    padding-bottom: 100px;
+    border: 2px solid black;
+}
+
+.slogan .titulo{
+   
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.slogan .texto{
+    border: 2px solid black;
+    font-size: 90px;
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.conteudo-pag {
+    min-height: 500px;
+}
+
+.corpo{
+    border: 1px solid black;
+}
+
+.box1 {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box1 .img {
+    margin: 30px 0px;
+}
+
+.box1Total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink center top fixed;
+    border: 1px solid black;
+}
+
+.box1{
+    border: 1px solid black;
+}
+
+.global {
+    margin: 0 auto;
+}
+
+.box1 .titulo {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: #fff;
+    margin: 20px 0px;
+    border: 1px solid black;
+}
+
+.box1 .texto {
+    border: 1px solid black;
+    width: 1070px;
+    margin: 20px auto;
+    padding: 0px 20px;
+    font: 19px 'calibri';
+    color: #fff;
+}
+
+.box1 .botao {
+    background: #fff;
+    width: 170px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid transparent;
+    border-radius: 40px;
+    font: 16px 'lato', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid black;
+}
